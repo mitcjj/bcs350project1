@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>N64 Custom Robo 2 JP Cartridge</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="../index.js"></script>
+</head>
+<body>
+    <div id="brand name">
+        <h1>Second Hand International National</h1>
+    </div>
+    <div id="navbar"><!-- 1 row grid -->
+        <div id="home" class="navbar-item" onclick="window.location.href='index.html'">
+            <h2>Home</h2>
+        </div>
+        <div id="buy-items" class="navbar-item" onclick="window.location.href='buy.html'">
+            <h2>Buy</h2>
+        </div>
+        <div id="sell-items" class="navbar-item" onclick="window.location.href='sell.html'">
+            <h2>Sell</h2>
+        </div>
+        <div id="profile" class="navbar-item" onclick="window.location.href='contact.html'"><!--TODO change address -->
+            <h2>Profile</h2>
+        </div>
+    </div>
+
+    <div id="item-page" class="item japan video-game popular">
+        <img class="item-pic" src="images/cartridge.jpg" alt="Custom Robo 2 cartridge">
+        <h4 id="itemname">N64 Custom Robo 2 JP Cartridge</h4>
+        <h4 id="itemnum">Item# 2</h4>
+        <p class="description">
+            Custom Robo 2 Japanese game for sale. Never released in the USA.
+            In very good condition. Tested and working.
+        </p>
+        <div class="seller-info">
+            <h4>Sold by:</h4>
+            <a href="contact.html" class="seller">SHIN</a>
+        </div>
+        <div class="price-info">
+            <h4>Asking Price: $<span id="price">30.00</span> <span class="discount"></span></h4>
+        </div>
+        <button class="button" onclick="testAdd()">Add to cart</button>
+    </div>
+</body>
+<footer>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <p>Site by Jared Mitchell</p>
+</footer>
+</html>

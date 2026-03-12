@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Second Hand International National</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="../index.js"></script>
+</head>
+<body>
+    <div id="brand name">
+        <h1>Second Hand International National</h1>
+    </div>
+    <div id="navbar"><!-- 1 row grid -->
+        <div id="home" class="navbar-item" onclick="window.location.href='index.html'">
+            <h2>Home</h2>
+        </div>
+        <div id="buy-items" class="navbar-item" onclick="window.location.href='buy.html'">
+            <h2>Buy</h2>
+        </div>
+        <div id="sell-items" class="navbar-item" onclick="window.location.href='sell.html'">
+            <h2>Sell</h2>
+        </div>
+        <div id="profile" class="navbar-item" onclick="window.location.href='contact.html'"><!--TODO change address -->
+            <h2>Profile</h2>
+        </div>
+    </div>
+
+    <h2>By Popularity</h2>
+    <div id="popular-items">
+
+        <h3>Instruments</h3>
+        <div class="container instruments"><!-- flex-container -->
+            <div class="item mexico instrument popular discounted" onclick="window.location.href='item1.html'">
+                <img class="item-pic" src="images/guitar.jpg" alt="Cherry Red Stratocaster">
+                <h4 class="item-name">MIM 2020 Fender Stratocaster</h4>
+                <h4 class="item-id">Item# 1</h4>
+                <p class="description">
+                    Made in Mexico Strat for sale. Aged Cherry Flame Maple Top. Custom pickups and neck added,
+                    original parts available. In excellent condition.
+                </p>
+                <div class="seller-info">
+                    <h4>Sold by:</h4>
+                    <a href="contact.html" class="seller">SHIN</a>
+                </div>
+                <div class="price-info">
+                    <h4>Asking Price: $<span class="price">800.00</span> <span class="discount">Down by 20%</span></h4>
+                </div>
+            </div>
+        </div>
+
+        <h3>Video Games</h3>
+        <div class="container video-games"><!-- flex-container -->
+            <div class="item japan video-game popular" onclick="window.location.href='item2.html'">
+                <img class="item-pic" src="images/cartridge.jpg" alt="Custom Robo 2 cartridge">
+                <h4 class="item-name">N64 Custom Robo 2 JP Cartridge</h4>
+                <h4 class="item-id">Item# 2</h4>
+                <p class="description">
+                    Custom Robo 2 Japanese game for sale. Never released in the USA.
+                    In very good condition. Tested and working.
+                </p>
+                <div class="seller-info">
+                    <h4>Sold by:</h4>
+                    <a href="contact.html" class="seller">SHIN</a>
+                </div>
+                <div class="price-info">
+                    <h4>Asking Price: $<span class="price">30.00</span> <span class="discount"></span></h4>
+                </div>
+            </div>
+            <div class="item japan video-game popular" onclick="window.location.href='item3.html'">
+                <img class="item-pic" src="images/disc.jpg" alt="Luigi's Mansion disc">
+                <h4 class="item-name">Luigi's Mansion JP Gamecube Disc</h4>
+                <h4 class="item-id">Item# 3</h4>
+                <p class="description">
+                    Japanese version of Luigi's Mansion for the Nintendo Gamecube.
+                    In very good condition. Tested and working.
+                </p>
+                <div class="seller-info">
+                    <h4>Sold by:</h4>
+                    <a href="contact.html" class="seller">SHIN</a>
+                </div>
+                <div class="price-info">
+                    <h4>Asking Price: $<span class="price">30.00</span> <span class="discount"></span></h4>
+                </div>
+            </div>
+        </div>
+
+    </div><!-- end of popular items -->
+
+    <h2>By Country</h2>
+    <div id="popular-countries">
+
+        <h3>Japan</h3>
+        <div class="container japan"><!-- flex-container -->
+            <div class="item japan video-game popular" onclick="window.location.href='item2.html'">
+                <img class="item-pic" src="images/cartridge.jpg" alt="Custom Robo 2 cartridge">
+                <h4 class="item-name">N64 Custom Robo 2 JP Cartridge</h4>
+                <h4 class="item-id">Item# 2</h4>
+                <p class="description">
+                    Custom Robo 2 Japanese game for sale. Never released in the USA.
+                    In very good condition. Tested and working.
+                </p>
+                <div class="seller-info">
+                    <h4>Sold by:</h4>
+                    <a href="contact.html" class="seller">SHIN</a>
+                </div>
+                <div class="price-info">
+                    <h4>Asking Price: $<span class="price">30.00</span> <span class="discount"></span></h4>
+                </div>
+            </div>
+            <div class="item japan video-game popular" onclick="window.location.href='item1.html'">
+                <img class="item-pic" src="images/disc.jpg" alt="Luigi's Mansion disc">
+                <h4 class="item-name">Luigi's Mansion JP Gamecube Disc</h4>
+                <h4 class="item-id">Item# 3</h4>
+                <p class="description">
+                    Japanese version of Luigi's Mansion for the Nintendo Gamecube.
+                    In very good condition. Tested and working.
+                </p>
+                <div class="seller-info">
+                    <h4>Sold by:</h4>
+                    <a href="contact.html" class="seller">SHIN</a>
+                </div>
+                <div class="price-info">
+                    <h4>Asking Price: $<span class="price">30.00</span> <span class="discount"></span></h4>
+                </div>
+            </div>
+        </div>
+
+        <h3>Mexico</h3>
+        <div class="container mexico"><!-- flex-container -->
+            <div class="item mexico instrument popular discounted" onclick="window.location.href='item1.html'">
+                <img class="item-pic" src="images/guitar.jpg" alt="Cherry Red Stratocaster">
+                <h4 class="item-name">MIM 2020 Fender Stratocaster</h4>
+                <h4 class="item-id">Item# 1</h4>
+                <p class="description">
+                    Made in Mexico Strat for sale. Aged Cherry Flame Maple Top. Custom pickups and neck added,
+                    original parts available. In excellent condition.
+                </p>
+                <div class="seller-info">
+                    <h4>Sold by:</h4>
+                    <a href="contact.html" class="seller">SHIN</a>
+                </div>
+                <div class="price-info">
+                    <h4>Asking Price: $<span class="price">800.00</span> <span class="discount">Down by 20%</span></h4>
+                </div>
+            </div>
+        </div>
+
+    </div><!-- end of popular countries -->
+
+    <h2>Great Deals</h2>
+    <div id="deals">
+        <div class="container discounted"><!-- flex-container -->
+            <div class="item mexico instrument popular discounted" onclick="window.location.href='item1.html'">
+                <img class="item-pic" src="images/guitar.jpg" alt="Cherry Red Stratocaster">
+                <h4 class="item-name">MIM 2020 Fender Stratocaster</h4>
+                <h4 class="item-id">Item# 1</h4>
+                <p class="description">
+                    Made in Mexico Strat for sale. Aged Cherry Flame Maple Top. Custom pickups and neck added,
+                    original parts available. In excellent condition.
+                </p>
+                <div class="seller-info">
+                    <h4>Sold by:</h4>
+                    <a href="contact.html" class="seller">SHIN</a>
+                </div>
+                <div class="price-info">
+                    <h4>Asking Price: $<span class="price">800.00</span> <span class="discount">Down by 20%</span></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<footer>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <p>Site by Jared Mitchell</p>
+</footer>
+</html>
